@@ -1,0 +1,9 @@
+server {
+    listen 127.0.0.1:<%= @http_port %> default_server;
+
+    location / {
+        root /var/www/html;
+        index puppet_test.html;
+    }
+
+}
